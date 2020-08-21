@@ -6,14 +6,15 @@ import IEDFormButton from "../../components/IEDFormButton";
 import IEDFormInput from "../../components/IEDFormInput";
 import { styles } from "./styles";
 export default ({ navigation }) => {
-  const specialChar = /[!@#$%^&*(),.?":{}|<>]/g;
+  const specialChar = /[!@#$%^&*(),.?":{}|<>]/g; //Special Char regexp
 
   const [error, setError] = useState("");
   const [mail, setMail] = useState("");
   const [pass, setPass] = useState("");
   const [disabled, setDisabled] = useState(true);
+  
   onLogin = () => {
-    navigation.navigate("Logged", { mail: mail });
+    navigation.navigate("Logged", { mail: mail }); // Pass the mail value to the Logged View
   };
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export default ({ navigation }) => {
       setError("");
       setDisabled(false);
     }
-  }, [mail, pass]);
+  }, [mail, pass]); // Update when mail or pass changes
 
   return (
     <SafeAreaView style={styles.container}>

@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   error: {
     textAlign: "center",
     marginHorizontal: "2%",
-    color: "red",
+    color: "red", //Red for error ?...
     alignSelf: "center",
     fontSize: 22,
   },

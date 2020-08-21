@@ -1,10 +1,6 @@
-import 'react-native-gesture-handler';
-
-import React from 'react';
-import Root from './src';
-
-
-
+import React from "react";
+import "react-native-gesture-handler";
+import Root from "./src";
 
 const App = () => {
   return (
