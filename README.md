@@ -24,6 +24,7 @@ The design is very simple no futuristic animations were still implemented
 
 ```
 yarn
+npx pod-install
 yarn ios
 yarn android
 ```
@@ -32,6 +33,7 @@ yarn android
 
 ```
 npm i
+npx pod-install
 npm run ios
 npm run android
 ```
