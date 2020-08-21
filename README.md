@@ -10,6 +10,7 @@ The design is very simple no futuristic animations were still implemented
 + Connect button is disabled if there's an error 👍 
 + Implement React Navigation v5 🥳
 + Handle *@inextenso.fr* user
+  
 **TODO**
 + Add good looking  animation 😎 
 + Use TypeScript ? 
