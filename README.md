@@ -17,4 +17,23 @@ The design is very simple no futuristic animations were still implemented
 + Write unit test
 + Implement Redux
 + Handle Screen Orientation Change
+
+### How to use :
+
++ #### Using Yarn :
+
+```
+yarn
+yarn ios
+yarn android
+```
+
++ #### Using NPM :
+
+```
+npm i
+npm run ios
+npm run android
+```
+
 ### Good luck 👋 
